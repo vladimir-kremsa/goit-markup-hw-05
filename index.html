@@ -507,7 +507,32 @@
               </svg>
             </div>
           </div>
-          <div></div>
+          <div class="comment-container">
+            <label class="modal-label" for="user-comment">Comment</label>
+            <textarea
+              class="comment-textarea"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="chek-container">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+            />
+            <label class="check-label" for="user-privacy"
+              ><span class="text-span"
+                ><svg class="icon-chek" width="10" height="8">
+                  <use href="./images/icons.svg#icon-chek"></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="nav-modal" href="">Privacy Policy</a></label
+            >
+          </div>
+          <button class="modal-btn">Send</button>
         </form>
       </div>
     </div>
