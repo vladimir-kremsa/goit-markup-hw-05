@@ -721,7 +721,7 @@ input:focus + svg {
   margin-right: 8px;
 }
 
-.visually-hidden:checked .text-span {
+input:checked + label > span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -729,6 +729,7 @@ input:focus + svg {
 
 .nav-modal {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .modal-btn {
