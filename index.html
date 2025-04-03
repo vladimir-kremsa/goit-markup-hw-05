@@ -443,7 +443,7 @@
               <input
                 class="form-input"
                 type="email"
-                name="use_email"
+                name="email"
                 placeholder="E-mail"
               />
             </label>
@@ -458,7 +458,57 @@
     </footer>
     <div class="modal-overley">
       <div class="modal">
-        <button class="modal-close-btn" type="button">X</button>
+        <button class="modal-close-btn" type="button">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-use-container">
+            <label class="modal-label" for="user-name">Name</label>
+            <div class="use-container">
+              <input
+                class="name-input"
+                id="user-name"
+                type="text"
+                name="user-name"
+              />
+              <svg class="icon-modal" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-use-container">
+            <label class="modal-label" for="user-phone">Phone</label>
+            <div class="use-container">
+              <input
+                class="name-input"
+                id="user-phone"
+                type="text"
+                name="user-phone"
+              />
+              <svg class="icon-modal" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-use-container">
+            <label class="modal-label" for="user-email">Email</label>
+            <div class="use-container">
+              <input
+                class="name-input"
+                id="user-email"
+                type="text"
+                name="user-email"
+              />
+              <svg class="icon-modal" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div></div>
+        </form>
       </div>
     </div>
   </body>
