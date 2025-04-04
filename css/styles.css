@@ -558,6 +558,7 @@ input::placeholder {
 }
 
 .icon-btn {
+  margin-left: 16px;
   fill: #fff;
 }
 
