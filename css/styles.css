@@ -435,10 +435,6 @@ img {
   align-items: baseline;
 }
 
-.logo-container {
-  margin-right: 120px;
-}
-
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -454,6 +450,10 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-soc-cotainer {
+  margin-left: 180px;
 }
 
 .footer-text {
