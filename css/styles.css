@@ -453,7 +453,7 @@ img {
 }
 
 .footer-soc-cotainer {
-  margin-left: 180px;
+  margin-left: 120px;
 }
 
 .footer-text {
@@ -468,7 +468,6 @@ img {
 .footer-soc-list {
   display: flex;
   gap: 16px;
-  margin-right: 80px;
 }
 
 .footer-item {
@@ -502,6 +501,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-left: 80px;
 }
 
 .form-text {
